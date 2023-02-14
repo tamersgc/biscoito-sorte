@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+.hide {
+    display: none;
+
+}
+
+
+main {
+
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+
+    margin-top: -12rem;
+    text-align: center;
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+
+    width: min(42.8rem, 90%);
+
+}
+
+
+
+body {
+    background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+    font-size: 1.6rem;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    color: #34355B;
+    margin-bottom: 1.4rem;
+}
+
+p {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.0rem;
+    color: #34355B;
+    margin-bottom: 2.0rem;
+}
+
+
+button {
+    border: none;
+    background-color: #FFFFFF;
+
+}
+
+.window1 button:hover {
+    animation: crescendo .3s alternate infinite ease-in;
+}
+
+@keyframes crescendo {
+    0% {
+        transform: scale(.95);
+
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+span {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    text-align: center;
+    color: #000000;
+
+
+}
+
+.message {
+    padding: 1rem;
+    background: #E4EDF1;
+    box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+}
+
+.window2 button {
+    background: #FF9500;
+    border-radius: 4px;
+    padding: 1.6rem;
+
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.0rem;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.window2 button:hover {
+    background: #ee8b00;
+
+
+}
