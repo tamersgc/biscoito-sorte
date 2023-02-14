@@ -12,7 +12,7 @@ const messages = [
     "Se alguém está tão cansado que não possa te dar um sorriso, deixa-lhe o teu"
 ]
 
-let randomNumber = Math.floor(Math.random() * 10)
+let randomNumber = Math.floor(Math.random() * messages.length)
 
 const bntOpenCookie = document.querySelector("#bntOpenCookie")
 
@@ -37,7 +37,7 @@ function handleOpenCookie(event) {
 
 function handleNewCookie() {
     message.innerText = messages[randomNumber]
-    randomNumber = Math.floor(Math.random() * 10)
+    randomNumber = Math.floor(Math.random() * messages.length)
     toggleScreen()
 }
 
