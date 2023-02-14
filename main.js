@@ -1,5 +1,5 @@
 
-messages = [
+const messages = [
     "A vida trará coisas boas se tiver paciência.",
     "Demonstre amor e alegria em todas as oportunidades e verá que a paz nasce dentro de si.",
     "Não compense na ira o que lhe falta na razão.",
